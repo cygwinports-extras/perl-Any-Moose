@@ -1,0 +1,13 @@
+CPAN_AUTHOR=sartak
+inherit perl
+
+NAME="perl-Any-Moose"
+VERSION=0.21
+RELEASE=1
+CATEGORY="Perl"
+SUMMARY="Perl Moose/Mouse compatibility shim"
+DESCRIPTION="Any::Moose is a simplistic but expedient answer for getting Moose
+syntax from Mouse on the cheap but with the transparent upgrade path to Moose
+when you need it."
+
+ARCH=noarch
