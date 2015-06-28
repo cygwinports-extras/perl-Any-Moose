@@ -1,8 +1,8 @@
-CPAN_AUTHOR=sartak
+CPAN_AUTHOR=ether
 inherit perl
 
 NAME="perl-Any-Moose"
-VERSION=0.21
+VERSION=0.26
 RELEASE=1
 CATEGORY="Perl"
 SUMMARY="Perl Moose/Mouse compatibility shim"
@@ -11,3 +11,5 @@ syntax from Mouse on the cheap but with the transparent upgrade path to Moose
 when you need it."
 
 ARCH=noarch
+
+REQUIRES="perl-Mouse"
